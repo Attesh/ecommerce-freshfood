@@ -2,6 +2,9 @@
 
 A fully functional e-commerce website built using Laravel.
 
+## Live URL
+https://fisdemoprojects.com/freshfood/
+
 ### Description
 
 The Freshfood e-commerce website is an online platform that allows customers to browse and purchase a variety of fresh food products. The website provides a user-friendly interface with features such as product listings, shopping cart functionality, secure payment integration, order tracking, and user account management.
