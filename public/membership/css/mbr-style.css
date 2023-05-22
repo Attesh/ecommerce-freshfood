@@ -1,0 +1,217 @@
+#side-nav .nav-link:hover{
+	color: #ff7014 !important;
+}
+#side-nav .nav-link:focus{
+	color: white; !important;
+}
+#main-sec {
+    padding: 0px 0;
+    overflow: hidden;
+    position: relative;
+}
+#side-nav{
+	background-color: honeydew;
+}
+#v-pills-tab{
+	margin-top: 20px;
+}
+#v-pills-tabContent{
+	margin-top: 20px;
+}
+.featured-services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #608c2a;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+.featured-services .icon-box::before {
+    content: "";
+    position: absolute;
+    background: #ff7014;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.9s;
+    z-index: -1;
+}
+.featured-services .icon-box:hover::before {
+    background: #ff7014;
+    top: 0;
+    border-radius: 0px;
+}
+.featured-services .icon {
+    margin-bottom: 15px;
+}
+.featured-services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-services .title {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.featured-services .title a {
+    color: white;
+	text-decoration: none;
+}
+.featured-services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.mbr-sec{
+	margin-top: 0px;
+}
+.mbr-sec .tab-pane{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mbr-sec .profile-img{
+	text-align: center;
+	margin: 10px 5px;
+}
+.mbr-sec #file{
+	display: none;
+}
+.mbr-sec .nav-link1{
+	text-align: left;
+	color: #608c2a;
+	width: 75%;
+	height: 40px;
+	margin: 4px;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #608c2a !important;
+}
+.mbr-sec .nav-link .bi-chevron-down {
+    margin-right: 0;
+    transition: transform 0.2s ease-in-out;
+}
+.mbr-sec .nav-link:not(.collapsed) .bi-chevron-down {
+    transform: rotate(180deg);
+}
+.mbr-sec .card-header-c{
+	background-color:#608c2a !important ;
+	color: white !important;
+}
+.profilenav {
+    border-color: #608c2a;
+}
+.profilenavlinks {
+    color: #608c2a !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #608c2a #608c2a #fff;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #608c2a #608c2a #608c2a;
+}
+.mbr-sec .profilebtn{
+	background-color:#608c2a !important ;
+	border: 1px solid #608c2a !important;
+	color: white !important;
+}
+.mbr-sec .profilebtn:hover{
+	background-color: white !important;
+    border: 1px solid #608c2a;
+    color: #608c2a !important;
+}
+.mbr-sec #v-pills-account-dtl .profilenav .nav-item{
+	width: auto;
+}
+@media screen and (max-width: 1200px) {
+	.mbr-sec .nav-link1{
+		width: 81%;
+	}
+
+}
+@media screen and (max-width: 767px) {
+	.mbr-sec #v-pills-account-dtl .profilenav .nav-item{
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
+	.mbr-sec #v-pills-account-dtl .profilenav .nav-item .nav-link{
+		width: 100%;
+		height: auto;
+		padding: 0.5rem 0.3rem !important;
+	}
+	.mbr-sec #v-pills-profile .profilenav .nav-item{
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
+	.mbr-sec #v-pills-profile .profilenav .nav-item .nav-link{
+		width: 100%;
+		height: auto;
+		padding: 0.5rem 0.3rem !important;
+	}
+
+}
+@media screen and (max-width: 576px) {
+	.mbr-sec .nav-link1{
+		width: 99%;
+		margin: 4px;
+	}
+	.mbr-sec .featured-services {
+    	padding-bottom: 0px !important;
+    	padding-top: 10px;
+	}
+	.mbr-sec #v-pills-account-dtl .profilenav .nav-item{
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
+	.mbr-sec #v-pills-profile .profilenav .nav-item{
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
+	.mbr-sec #v-pills-account-dtl .profilenav .nav-item .nav-link{
+		width: 100%;
+		height: auto;
+		padding: 0.5rem 0.3rem !important;
+	}
+	.mbr-sec #v-pills-profile .profilenav .nav-item .nav-link{
+		width: 100%;
+		height: auto;
+		padding: 0.5rem 0.3rem !important;
+	}
+  
+}
+
+@media screen and (max-width: 350px) {
+	.mbr-sec #v-pills-account-dtl .profilenav .nav-item{
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
+	.mbr-sec #v-pills-account-dtl .profilenav .nav-item .nav-link{
+		width: 100%;
+		height: 70px;
+		padding: 0.5rem 0.3rem !important;
+	}
+	.mbr-sec #v-pills-profile .profilenav .nav-item{
+		display: flex;
+		align-items: center;
+		width: 50%;
+	}
+	.mbr-sec #v-pills-profile .profilenav .nav-item .nav-link{
+		width: 100%;
+		padding: 0.5rem 0.3rem !important;
+	}
+}	

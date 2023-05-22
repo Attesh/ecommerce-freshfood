@@ -1,0 +1,83 @@
+a{
+    color: #f59406 !important;
+}
+.bg-image-vertical {
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: auto 100%;
+}
+.belowtext {
+	font-size: 14px;
+}
+.loginCard {
+	margin: 60px auto;
+	padding: 25px 50px;
+	background: #fff;
+	box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+	border-radius: 5px;
+}
+.textside .logodiv {
+	margin: 15px auto;
+}
+
+.form-control {
+	height: 41px;
+	margin-bottom: 10px;
+}
+
+.loginbutn {
+	background: #608c2a;
+	color: White !important;
+	border: 1px solid #608c2a;
+ }
+.loginbutn:hover{
+	background: #ff7014;
+	color: White !important;
+	border: 1px solid #ff7014;
+}
+.textside {
+	/* background: linear-gradient(to right, #3D9B8F, #608c2a);   */
+	background: linear-gradient(to right, #f37922bd, #608c2aeb);
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 576px) {
+	
+}
+
+@media screen and (max-width: 350px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .haveee img {
+        display: none;
+    }
+    /*form {
+        width: 35rem !important;
+    }*/
+    .loginbutn {
+        background: #1C1A4B !important;
+        color: White;
+    }
+    .loginbutn:hover {
+        background: #1c1887 !important;
+        color: White;
+    }
+}
+form .bi-eye-slash{
+    position: relative;
+    margin-top:7px;
+    cursor: pointer;
+}	
+form .bi-eye-slash::before {
+    margin-left: -30px;
+
+}
